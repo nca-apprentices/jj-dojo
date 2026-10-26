@@ -1,0 +1,5 @@
+[tools]
+java = "25.0.5+8.0.LTS"
+gradle = "9.8.2"
+ktlint = "1.8.0"
+actionlint = "1.7.12"
