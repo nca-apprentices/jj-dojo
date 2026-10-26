@@ -1,6 +1,21 @@
+# Gradle and Kotlin build output
 .gradle/
 .kotlin/
 build/
+
+# mise pins Gradle. IntelliJ generates a wrapper anyway when it opens the
+# project, so the wrapper stays out of every change.
+gradlew
+gradlew.bat
+gradle/wrapper/
+
+# IntelliJ IDEA, which builds into out/ when it compiles without Gradle
 .idea/
 *.iml
+out/
+
+# Kotlin and Java language servers in other editors
+bin/
+.vscode/
+
 .DS_Store
