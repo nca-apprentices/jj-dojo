@@ -8,4 +8,8 @@ class GreetTest {
     fun `greets by name`() {
         assertEquals("Hello, Lena!", greet("Lena"))
     }
+    @Test
+    fun `greets with Hello World!`() {
+        assertEquals("Hellosdsd World!", hello())
+    }
 }
